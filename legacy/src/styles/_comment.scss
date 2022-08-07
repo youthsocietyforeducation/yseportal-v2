@@ -1,0 +1,28 @@
+.i-comment-window {
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid #f1f1f1; 
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.i-comment-window .comment-form {
+    position: relative; 
+}
+.i-comment-window .comment-display {
+    overflow-y: scroll;
+}
+.i-comment-window .comment {
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    border: 1px solid #f1f1f1;
+    border-radius: 2px;
+    background: white;
+    color: #555555; 
+}
+
+.i-comment-window .comment p {
+    padding-bottom: 20px;
+}

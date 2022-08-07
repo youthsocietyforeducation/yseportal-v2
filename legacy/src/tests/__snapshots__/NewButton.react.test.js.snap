@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+<div
+  className="el-tooltip item mr-2"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={Object {}}
+>
+  <div
+    className="el-tooltip__rel"
+  >
+    <div>
+      <button
+        className="el-button el-button--success"
+        disabled={false}
+        onClick={[Function]}
+        style={Object {}}
+        type="button"
+      >
+        <span>
+          <i
+            className="fas fa-plus mr-2"
+          />
+          New
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="el-tooltip__popper is-dark"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div>
+      
+    </div>
+    <div
+      className="popper__arrow"
+    />
+  </div>
+</div>
+`;
+
+exports[`Link changes the class when hovered 2`] = `
+<div
+  className="el-tooltip item mr-2"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={Object {}}
+>
+  <div
+    className="el-tooltip__rel"
+  >
+    <div>
+      <button
+        className="el-button el-button--success"
+        disabled={false}
+        onClick={[Function]}
+        style={Object {}}
+        type="button"
+      >
+        <span>
+          <i
+            className="fas fa-plus mr-2"
+          />
+          New
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="el-tooltip__popper is-dark"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div>
+      
+    </div>
+    <div
+      className="popper__arrow"
+    />
+  </div>
+</div>
+`;
+
+exports[`Link changes the class when hovered 3`] = `
+<div
+  className="el-tooltip item mr-2"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={Object {}}
+>
+  <div
+    className="el-tooltip__rel"
+  >
+    <div>
+      <button
+        className="el-button el-button--success"
+        disabled={false}
+        onClick={[Function]}
+        style={Object {}}
+        type="button"
+      >
+        <span>
+          <i
+            className="fas fa-plus mr-2"
+          />
+          New
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="el-tooltip__popper is-dark"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div>
+      
+    </div>
+    <div
+      className="popper__arrow"
+    />
+  </div>
+</div>
+`;

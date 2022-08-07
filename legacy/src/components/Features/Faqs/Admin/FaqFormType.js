@@ -1,0 +1,11 @@
+export const FAQS = {
+    PROPOSAL:{
+        CREATE:"CREATE_PROPOSAL_FAQ",
+        EDIT:"EDIT_PROPOSAL_FAQ",
+    },
+    SCHOLARSHIP: {
+        CREATE:"CREATE_SCHOLARSHIP_FAQ",
+        EDIT:"EDIT_SCHOLARSHIP_FAQ",
+    }
+}
+

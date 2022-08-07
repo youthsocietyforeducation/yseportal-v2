@@ -1,0 +1,44 @@
+.i-dropdown .dropdown-menu {
+  padding: 0px;
+}
+.i-dropdown .dropdown-menu .dropdown-item {
+  padding: 10px;
+}
+.i-dropdown .dropdown-menu a:hover {
+  text-decoration: none;
+}
+
+nav.navbar {
+  box-shadow: 1px 2px 3px #cccccc;
+}
+
+.i-dropdown .btn {
+  border: 1px solid #0078d8;
+  color: #0078d8;
+  padding: 5px 3px 5px 3px;
+}
+.i-dropdown .btn:focus {
+  box-shadow: none;
+}
+.i-account-initials {
+  background-color: #0078d8 !important;
+  padding: 10px;
+  color: white;
+  margin-right: 10px;
+}
+
+.i-logo:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.i-menu *:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.i-nav-menu-item {
+  text-align: center !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}

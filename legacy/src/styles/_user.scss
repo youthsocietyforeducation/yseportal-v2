@@ -1,0 +1,19 @@
+.i-user-frame {
+    height: 100%;
+    width: 100%;
+}
+
+.i-user-cards {
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+// .i-user-cards div[class*='col-']:nth-of-type(2n+1) {
+//     background-color: blue; 
+//     padding-right: 0; 
+// } 
+// .i-user-cards div[class*='col-']:nth-of-type(2n) {
+//     background-color: green; 
+//     padding-left: 0;
+// } 

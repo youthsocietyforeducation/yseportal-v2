@@ -1,0 +1,35 @@
+.i-notification-drawer {
+  .ant-drawer-content-wrapper {
+    width: 400px !important;
+  }
+
+  .ant-drawer-body {
+    padding: 10px;
+    .ant-list-bordered {
+      border: none;
+
+      .ant-alert {
+        background-color: #f9f9f9;
+        margin-bottom: 10px;
+        border-radius: 5px;
+      }
+
+      .ant-alert:hover {
+        background-color: #f1f1f1;
+      }
+
+      .ant-list-items a:hover {
+        text-decoration: none;
+      }
+    }
+
+    .i-notification-title {
+      font-size: 18px;
+    }
+
+    .i-notification-item .ant-badge-status-dot {
+      width: 10px;
+      height: 10px;
+    }
+  }
+}

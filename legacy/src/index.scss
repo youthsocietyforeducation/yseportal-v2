@@ -1,0 +1,224 @@
+$theme-color: #0078d8;
+$tiny-font: 10px;
+$small-font: 12px;
+$medium-font: 18px;
+$custom-font: 20px;
+$large-font: 24px;
+
+d e
+.ant-image {
+	height: fit-content !important;
+}
+body {
+	font-family: Lato !important;
+	margin: 0;
+	padding: 0;
+}
+
+i.fas,
+i.far,
+i.fa {
+	font-style: normal;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.userProfile {
+	width: 100px;
+	height: 100px;
+}
+.yselogo {
+	width: 3em;
+	height: 3em;
+}
+.authorList {
+	list-style-type: none;
+	padding-left: 0;
+}
+nav.navbar {
+	box-shadow: 1px 2px 5px #999999;
+}
+
+.theme-color {
+	color: $theme-color;
+}
+
+.theme-color-bg {
+	color: $theme-color;
+}
+
+.font-tiny {
+	font-size: $tiny-font;
+}
+
+.font-small {
+	font-size: $small-font;
+}
+
+.font-medium {
+	font-size: $medium-font;
+}
+
+.font-large {
+	font-size: $large-font;
+}
+
+.underlined {
+	text-decoration: underline;
+}
+
+.text-link {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.i-display-root-frame {
+	display: block;
+}
+
+.i-left-panel-root-frame {
+	background-color: #214a77;
+	box-shadow: 1px 2px 5px #999999;
+	width: 20%;
+	min-height: 100vh;
+	padding: 20px;
+	color: white;
+}
+.btn-enlarge {
+	font-size: $custom-font;
+}
+
+.btn-adjust {
+	width: 100%;
+}
+.window-frame {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.sub-setting {
+	color: #000000;
+	margin-left: 100px;
+	padding-bottom: 10px;
+	border-bottom: 0.2px solid lightgray;
+	width: 50%;
+}
+
+.remove-dec:hover {
+	color: #000000;
+	text-decoration: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.i-account-setup-frame {
+	margin: 10px auto;
+	width: 50vw;
+	padding: 20px;
+	background-color: #ffffff;
+	border: 2px solid #f1f1f1;
+	border-radius: 5px;
+	box-shadow: 1px 2px 5px #f1f1f1;
+}
+
+.i-element-black {
+	color: #1f2d3d;
+}
+.i-element-light-black {
+	color: #324057;
+}
+
+label {
+	color: #555555;
+	// text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.i-color-blue {
+	color: #0078d8;
+}
+
+.i-paragraph {
+	font-weight: 900;
+	font-size: 1.2rem;
+}
+.i-profile-image {
+	max-width: 150px;
+}
+input.i-edit-input {
+	border: 2px solid #cccccc;
+	padding: 20px 10px;
+	color: #0078d8;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+select.i-edit-input {
+	border: 2px solid #cccccc;
+	color: #0078d8;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.i-user-profile-cards a:hover {
+	text-decoration: none;
+}
+
+.row
+	.col-sm-3.i-user-profile-cards:not(:first-child):nth-of-type(n):not(:nth-of-type(4n
+			+ 1)) {
+	padding-left: 0;
+}
+
+.i-autocomplete-results-div {
+	margin-left: 5px;
+	padding-top: -3px;
+	z-index: -1;
+	max-height: 150px;
+	overflow-y: scroll;
+	border-bottom: 1px solid #cccccc;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: none;
+}
+
+.i-left-nav {
+	margin-top: -10px;
+	padding-top: 30px;
+	background-color: #f1f1f1;
+	min-width: 300px;
+	max-width: 300px;
+}
+
+.i-h-100vh {
+	height: 100vh;
+}
+
+.i-app-icon:hover {
+	cursor: pointer;
+}
+
+#dashboardPane {
+	background-color: #f1f1f1 !important;
+	min-height: 100vh;
+}
+
+.i-proposal .ant-card-body {
+	padding: 10px;
+	border: 1px solid #f1f1f1;
+	border-radius: 5px;
+}
+
+@import "./styles/auth";
+@import "./styles/dashboard";
+@import "./styles/fieldFileUpload";
+@import "./styles/comment";
+@import "./styles/user";
+@import "./styles/dashboardNavigator";
+@import "./styles/proposal";
+@import "./styles/navbar";
+@import "./styles/leftnav";
+@import "./styles/notifications";

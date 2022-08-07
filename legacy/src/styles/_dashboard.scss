@@ -1,0 +1,42 @@
+.dashboard-frame {
+	margin-top: 10px !important;
+	padding: 20px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 1px 2px 5px #f1f1f1;
+	min-height: 100vh;
+}
+
+.app-icon {
+	height: 200px;
+	border: 1px solid $theme-color;
+	border-radius: 5px;
+	background-color: #dbeeff;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.app-icon {
+	height: 200px;
+	border: 1px solid $theme-color;
+	border-radius: 5px;
+	background-color: #dbeeff;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.app-icon:hover {
+	cursor: pointer;
+	background-color: $theme-color;
+	color: white;
+}
+.app-icon-list a:hover {
+	text-decoration: none;
+}
+
+.app-icon p {
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: 900;
+}
