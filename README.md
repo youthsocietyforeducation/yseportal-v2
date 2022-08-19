@@ -35,6 +35,8 @@ $ git stash # stashes all the current changes to git stash
 
 These are basic commands any software engineers/programmers should know and be good with. Advanced commands such as `rebase`, `rebase -i`, `reset --soft`, `reset --hard`, and `cherry-pick` are good to know as one grows.
 
+For frequently used commands consider [creating git aliases](https://www.freecodecamp.org/news/how-to-use-git-aliases/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
