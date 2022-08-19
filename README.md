@@ -19,7 +19,7 @@ $ git rm {fileName} # git unstage filename
 $ git reset # git remove all staged
 $ git commit -m "msg" # git commit message
 $ git checkout -b {branchName} # git checkout new branch
-$ git checkout {branchName} # git checkout a targetted branch
+$ git checkout {branchName} # git checkout a targeted branch
 $ git pull # git pull current branch
 $ git pull origin {branchName} # git pull targetted branch
 $ git push # git push current branch
