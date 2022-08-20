@@ -1,7 +1,7 @@
 # Getting started with the repo
 
-* Clone the repo
-* Check you node and npm versions `node>=v14.15.1 & npm>=6.14.8`
+- Clone the repo
+- Check you node and npm versions `node>=v14.15.1 & npm>=6.14.8`
 
 ```bash
 $ npm i
@@ -15,11 +15,11 @@ Project should run for now. Will provide figma link.
 ```bash
 $ git add {fileName} # git add specific file
 $ git add . # git add all
-$ git rm {fileName} # git unstange filename
+$ git rm {fileName} # git unstage filename
 $ git reset # git remove all staged
 $ git commit -m "msg" # git commit message
 $ git checkout -b {branchName} # git checkout new branch
-$ git checkout {branchName} # git checkout a tragetted branch
+$ git checkout {branchName} # git checkout a targeted branch
 $ git pull # git pull current branch
 $ git pull origin {branchName} # git pull targetted branch
 $ git push # git push current branch
@@ -29,11 +29,13 @@ $ git merge {sourceBranch} {targetBranch} # git merge source branch with targett
 $ git log # shows the commit history of the branch
 $ git status # shows the status of current branch (usually tells what to do next as well)
 $ git stash list # shows the list of git stash
-$ git stash pop # pop the last node on the git stash
+$ git stash pop # pops the last node on the git stash
 $ git stash # stashes all the current changes to git stash
 ```
 
 These are basic commands any software engineers/programmers should know and be good with. Advanced commands such as `rebase`, `rebase -i`, `reset --soft`, `reset --hard`, and `cherry-pick` are good to know as one grows.
+
+For frequently used commands consider [creating git aliases](https://www.freecodecamp.org/news/how-to-use-git-aliases/).
 
 # Getting Started with Create React App
 
@@ -83,11 +85,15 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Redux
+
 [link](https://react-redux.js.org/introduction/getting-started)
 
 ## Prettier and eslint
+
 [link](https://dev.to/knowankit/setup-eslint-and-prettier-in-react-app-357b)
+
 #### minor changes
+
 ```js
 module.exports = {
   root: true,
@@ -113,4 +119,5 @@ module.exports = {
 ```
 
 ## Relative pathing
+
 [link](https://create-react-app.dev/docs/importing-a-component/#absolute-imports)
